@@ -1,0 +1,174 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-image: linear-gradient(90deg, #051937, #004d7a, #008793, #00bf72, #a8eb12);}
+.container {
+  margin-left: 450px;
+  margin-top: 30px;
+  height: 620px;
+  width: 620px;
+  border: 10px solid rgb(237, 221, 221);
+  box-sizing: border-box;
+
+}
+.griding {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  background-color: black;
+  color: rgb(211, 26, 26);
+}
+
+.item1,
+.item3,
+.item5,
+.item7,
+.item10,
+.item12,
+.item14,
+.item16,
+.item17,
+.item19,
+.item21,
+.item23,
+.item26,
+.item28,
+.item30,
+.item32,
+.item33,
+.item35,
+.item37,
+.item39,
+.item42,
+.item44,
+.item46,
+.item48,
+.item49,
+.item51,
+.item53,
+.item55,
+.item58,
+.item60,
+.item62,
+.item64 {
+  background-color:rgb(239, 186, 90);
+  color: black;
+}
+.item2,
+.item4,
+.item6,
+.item8,
+.item9,
+.item11,
+.item13,
+.item15,
+.item18,
+.item20,
+.item22,
+.item24,
+.item25,
+.item27,
+.item29,
+.item31,
+.item34,
+.item36,
+.item38,
+.item40,
+.item41,
+.item43,
+.item45,
+.item47,
+.item50,
+.item52,
+.item54,
+.item56,
+.item57,
+.item59,
+.item61,
+.item63 {
+  background-color: rgb(95, 32, 32);
+  color: black;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5,
+.item6,
+.item7,
+.item8,
+.item9,
+.item10,
+.item11,
+.item12,
+.item13,
+.item14,
+.item15,
+.item16 {
+  color: black;
+  font-size: 60px;
+}
+.item49,
+.item50,
+.item51,
+.item52,
+.item53,
+.item54,
+.item55,
+.item56,
+.item57,
+.item58,
+.item59,
+.item60,
+.item61,
+.item62,
+.item63,
+.item64 {
+  color: white;
+  font-size: 60px;
+}
+
+.item1:hover,
+.item2:hover,
+.item3:hover,
+.item4:hover,
+.item5:hover,
+.item6:hover,
+.item7:hover,
+.item8:hover,
+.item9:hover,
+.item10:hover,
+.item11:hover,
+.item12:hover,
+.item13:hover,
+.item14:hover,
+.item15:hover,
+.item16:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.item49:hover,
+.item50:hover,
+.item51:hover,
+.item52:hover,
+.item53:hover,
+.item54:hover,
+.item55:hover,
+.item56:hover,
+.item57:hover,
+.item58:hover,
+.item59:hover,
+.item60:hover,
+.item61:hover,
+.item62:hover,
+.item63:hover,
+.item64:hover {
+  background-color: green;
+  cursor: pointer;
+}
